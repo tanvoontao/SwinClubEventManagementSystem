@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardCornerRadius="10dp"
+app:cardPreventCornerOverlap="true"
+app:cardUseCompatPadding="true"
+android:background="@color/dark_black"
+android:backgroundTint="@color/dark_black"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textViewEventTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="World Environment Day"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageViewEventPoster"
+            app:layout_constraintTop_toTopOf="@+id/imageViewEventPoster"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewEventPoster"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/green_club_logo"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewEventStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:text="20-09-2022 10:00 PM"
+            android:textAlignment="center"
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewEventPoster"
+            app:layout_constraintStart_toEndOf="@+id/imageViewEventPoster" />
+
+        <TextView
+            android:id="@+id/textViewEventParticipationFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:text="10"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableLeftCompat="@drawable/ic_baseline_attach_money_24"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewEventStartDate"
+            app:layout_constraintStart_toEndOf="@+id/textViewEventStartDate"
+            app:layout_constraintTop_toTopOf="@+id/textViewEventStartDate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

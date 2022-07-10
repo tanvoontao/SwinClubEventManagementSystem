@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:background="@color/dark_black"
+    android:backgroundTint="@color/dark_black"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/textViewClubName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Swinburne Green Club"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewClubLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/green_club_logo"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

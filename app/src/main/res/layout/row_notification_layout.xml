@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/textViewNotifReceiveDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022-09-08"
+        android:textColor="@color/dark_black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewNotif"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+
+        app:layout_constraintStart_toStartOf="@+id/textViewNotifReceiveDate"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotifReceiveDate"
+        app:srcCompat="@drawable/ic_baseline_event_available_24" />
+
+    <TextView
+        android:id="@+id/textViewNotifTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Event Created"
+        android:textColor="@color/dark_black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNotif"
+        app:layout_constraintTop_toTopOf="@+id/imageViewNotif"
+        app:layout_goneMarginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textViewNotifContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rgioerie .. wegwer.. .."
+        android:textColor="@color/light_blue"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewNotifTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotifTitle" />
+
+    <TextView
+        android:id="@+id/textViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/dark_black"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNotif"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/drawable-v24/border.xml" value="0.2735" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/drawable/border.xml" value="0.2735" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.288" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_add_event.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_choose_audience.xml" value="0.3383152173913043" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_club_event.xml" value="0.13818181818181818" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_display_club.xml" value="0.4865616311399444" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_display_event.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_login.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_send_notif.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_add_event.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_choose_audience.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_club.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_home.xml" value="0.3197278911564626" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_joined_clubs.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_logout.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_member_listing.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_notification.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_setting.xml" value="0.21470588235294116" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/fragment_up_coming_event.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/row_club_audience_layout.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/row_event_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/row_notification_layout.xml" value="0.2984375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/layout/staggered_club_layout.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/bottom_nav.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/edit_icon.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/main.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/nav_header.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/nav_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/slide_menu_nav.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/slide_menu_nav_student.xml" value="0.271875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SwinClubEventManagementApplication/app/src/main/res/menu/student_bottom_nav_menu.xml" value="0.271875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

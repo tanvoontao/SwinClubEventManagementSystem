@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062505336816",
+    "firebase_url": "https://swinclubeventmanagamentapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "swinclubeventmanagamentapp",
+    "storage_bucket": "swinclubeventmanagamentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062505336816:android:4ce20d6131cca9715ed735",
+        "android_client_info": {
+          "package_name": "com.example.swinclubeventmanagementapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062505336816-iepmirdvksfh6tr32slskdl7tti6gg7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swinclubeventmanagementapplication",
+            "certificate_hash": "24f0719c5a393aea2a64367c397d47784979dff2"
+          }
+        },
+        {
+          "client_id": "1062505336816-k5h6qon5o9ru0b474vl0sr52p3nbm71h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGcD7VRHDO2z8x6_gTObTAgdlFWuSSKHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062505336816-k5h6qon5o9ru0b474vl0sr52p3nbm71h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayEventActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewEventCancelled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_red"
+            android:text="This event has been cancelled"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewEventPoster"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/green_club_logo"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventCancelled" />
+
+        <TextView
+            android:id="@+id/textViewEventTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Green Environment Day"
+            android:textAlignment="center"
+            android:textColor="@color/dark_black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewEventPoster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEventPoster" />
+
+        <TextView
+            android:id="@+id/textViewEventParticipationFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:padding="5dp"
+            android:text="10"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableLeftCompat="@drawable/ic_baseline_attach_money_24"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewEventTitle"
+            app:layout_constraintStart_toEndOf="@+id/textViewEventTitle"
+            app:layout_constraintTop_toTopOf="@+id/textViewEventTitle" />
+
+        <TextView
+            android:id="@+id/textViewEventActivities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="Event Activities: "
+            android:textColor="@color/dark_black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventTitle" />
+
+        <TextView
+            android:id="@+id/textViewEventActivitiesDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:lines="4"
+            android:paddingLeft="5dp"
+            android:paddingRight="200dp"
+            android:text="test..."
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@+id/textViewEventActivities"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventActivities" />
+
+
+        <TextView
+            android:id="@+id/textViewEventStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:padding="5dp"
+            android:text="20-09-2022 10:00 PM"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewEventActivitiesDetail"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventActivitiesDetail" />
+
+        <TextView
+            android:id="@+id/textViewEventType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:padding="5dp"
+            android:text="In Person"
+            android:textAlignment="center"
+            android:textColor="@color/dark_black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewEventStartDate"
+            app:layout_constraintStart_toEndOf="@+id/textViewEventStartDate"
+            app:layout_constraintTop_toTopOf="@+id/textViewEventStartDate" />
+
+        <TextView
+            android:id="@+id/textViewEventLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/light_blue"
+            android:padding="5dp"
+            android:text="G001"
+            android:textAlignment="center"
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewEventType"
+            app:layout_constraintStart_toEndOf="@+id/textViewEventType"
+            app:layout_constraintTop_toTopOf="@+id/textViewEventType"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewEventDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="Event Description: "
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewEventStartDate"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventStartDate" />
+
+        <TextView
+            android:id="@+id/textViewEventDescriptionDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:lines="4"
+            android:paddingLeft="5dp"
+            android:paddingRight="200dp"
+            android:text="test......."
+            android:layout_marginTop="10dp"
+            android:textColor="@color/dark_black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textViewEventDescription"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventDescription" />
+
+        <Button
+            android:id="@+id/buttonUpdateEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Event!"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEventDescriptionDetails" />
+
+        <Button
+            android:id="@+id/buttonCancelEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Event!"
+            app:backgroundTint="@color/light_blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonUpdateEvent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

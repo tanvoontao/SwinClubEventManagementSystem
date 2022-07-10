@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment"
+    android:background="@color/grey"
+    android:padding="10dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundImageView" />
+
+    <ImageView
+        android:id="@+id/imageViewBadge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_stars_24"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewProfile"
+        app:layout_constraintStart_toStartOf="@+id/imageViewProfile"
+        app:tint="@color/dark_red" />
+
+    <TextView
+        android:id="@+id/textViewStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tan Voon Tao"
+        android:textColor="@color/dark_black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProfile" />
+
+    <ImageView
+        android:id="@+id/imageViewGenderIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/male"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewStudentName"
+        app:layout_constraintStart_toEndOf="@+id/textViewStudentName"
+        app:layout_constraintTop_toTopOf="@+id/textViewStudentName" />
+
+    <TextView
+        android:id="@+id/textViewStudentEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="101234693@students.swinburne.edu.my"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStudentName"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_marginTop="25dp"
+        android:text="Date of Birth: "
+        android:textSize="15sp"
+
+        android:textColor="@color/light_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStudentEmail" />
+
+    <TextView
+        android:id="@+id/textViewDobDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09-08-2002"
+        android:textStyle="bold"
+        android:textColor="@color/dark_black"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toRightOf="@id/textViewDob"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewDob" />
+
+
+    <TextView
+        android:id="@+id/textViewContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Phone Contact Number: "
+        android:textSize="15sp"
+        android:textColor="@color/light_blue"
+        app:layout_constraintLeft_toLeftOf="@id/textViewDob"
+        app:layout_constraintTop_toBottomOf="@id/textViewDobDetail" />
+
+    <TextView
+        android:id="@+id/textViewContactNoDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01122222222"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@id/textViewContactNo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewContactNo" />
+
+
+    <TextView
+        android:id="@+id/textViewGeneralEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="General email: "
+        android:textSize="15sp"
+        android:textColor="@color/light_blue"
+        app:layout_constraintLeft_toLeftOf="@id/textViewContactNo"
+        app:layout_constraintTop_toBottomOf="@id/textViewContactNoDetail" />
+
+    <TextView
+        android:id="@+id/textViewGeneralEmailDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tanvoontao0908@gmail.com"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@id/textViewGeneralEmail"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewGeneralEmail" />
+
+    <TextView
+        android:id="@+id/textViewEnrollmentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Enrollment date: "
+        android:textSize="15sp"
+        android:textColor="@color/light_blue"
+        app:layout_constraintLeft_toLeftOf="@id/textViewGeneralEmail"
+        app:layout_constraintTop_toBottomOf="@id/textViewGeneralEmailDetail" />
+
+    <TextView
+        android:id="@+id/textViewEnrollmentDateDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01-01-2020"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@id/textViewEnrollmentDate"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewEnrollmentDate" />
+
+    <TextView
+        android:id="@+id/textViewAboutRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UREGB in HIOBB"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/textViewEnrollmentDate"
+        app:layout_constraintTop_toBottomOf="@id/textViewEnrollmentDate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@color/grey"
+    android:gravity="bottom"
+
+    >
+<!--   android:theme="@style/ThemeOverlay.AppCompat.Dark" -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/profile"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentName"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        android:text="Tan Voon Tao"
+        android:textColor="@color/dark_black"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentEmail"
+        android:textSize="16dp"
+        android:text="101234693@students.swinburne.edu.my"
+        android:textColor="@color/dark_black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_black"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_baseline_house_siding_24"-->
+<!--            android:title="nav_home" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_baseline_house_siding_24"-->
+<!--            android:title="nav_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_baseline_house_siding_24"-->
+<!--            android:title="nav_home" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_dashboard"-->
+<!--            android:icon="@drawable/ic_baseline_house_siding_24"-->
+<!--            android:title="nav_dashboard" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_notifications"-->
+<!--            android:icon="@drawable/ic_baseline_house_siding_24"-->
+<!--            android:title="nav_notifications" />-->
+<!--    </group>-->
+    <item
+        android:id="@+id/bottomNavHome"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/bottomNavClub"
+        android:title="Club"
+        android:icon="@drawable/ic_baseline_house_siding_24"
+        />
+    <item android:id="@+id/placeholder"
+        android:title="" />
+    <item
+        android:id="@+id/bottomNavUpcomingEvent"
+        android:title="Upcoming event"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        />
+
+    <item
+        android:id="@+id/bottomNavNotification"
+        android:title="Notification"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        />
+</menu>

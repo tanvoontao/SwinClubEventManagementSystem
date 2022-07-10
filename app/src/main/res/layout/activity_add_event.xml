@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/grey"
+tools:context=".AddEventActivity"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/activity_add_event">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--edit text for course name-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILEventTitle"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Event Title"
+            android:padding="5dp"
+            android:textColorHint="@color/dark_black"
+            app:hintTextColor="@color/dark_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtEventTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/dark_black"
+                android:textColorHint="@color/dark_black"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--edit text for course price-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILEventActivities"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Event Activities"
+            android:padding="5dp"
+            android:textColorHint="@color/dark_black"
+            app:boxStrokeColor="@color/dark_black"
+            app:hintTextColor="@color/dark_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtEventActivities"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/dark_black"
+                android:textColorHint="@color/dark_black"
+                android:textSize="14sp"
+                app:boxStrokeColor="@color/dark_black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        EventDate-->
+<!--        EventTime-->
+        <!--edit text for course suited for-->
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/idTILEventType"-->
+<!--            style="@style/LoginTextInputLayoutStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Enter Event Type"-->
+<!--            android:padding="5dp"-->
+<!--            android:textColorHint="@color/dark_black"-->
+<!--            app:hintTextColor="@color/dark_black">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/idEdtEventType"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:ems="10"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textImeMultiLine|textMultiLine"-->
+<!--                android:textColor="@color/dark_black"-->
+<!--                android:textColorHint="@color/dark_black"-->
+<!--                android:textSize="14sp" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <!--edit text for course image link-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILEventLoc"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Event Location (Link)"
+            android:padding="5dp"
+            android:textColorHint="@color/dark_black"
+            app:hintTextColor="@color/dark_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtEventLoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/dark_black"
+                android:textColorHint="@color/dark_black"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/editTextEventDate"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/calendar"
+                android:textColor="@color/dark_black"
+
+                android:inputType="date"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:text="Event Date"
+                />
+            <TextView
+                android:id="@+id/editTextEventTime"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/clock"
+                android:textColor="@color/dark_black"
+                android:layout_marginLeft="10dp"
+                android:inputType="date"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:text="Event Time"
+                />
+        </LinearLayout>
+
+
+
+<!--EventParticipationFee-->
+        <!--edit text for course link-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILEventPosterIMG"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Event Poster IMG Link"
+            android:padding="5dp"
+            android:textColorHint="@color/dark_black"
+            app:hintTextColor="@color/dark_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtEventPosterIMG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/dark_black"
+                android:textColorHint="@color/dark_black"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                app:srcCompat="@drawable/arrow_down"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/textViewParticipationFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Fee"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrow_up"
+                android:layout_weight="1"
+                android:background="@null"
+                />
+
+            <Switch
+                android:id="@+id/switchOnlineInPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="In Person"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editTextAudience"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_black"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            android:background="@drawable/border"
+            android:text="To: Audience"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            />
+
+
+        <!--edit text for course description-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILEventDescription"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Event Description"
+            android:padding="5dp"
+            android:textColorHint="@color/dark_black"
+            app:hintTextColor="@color/dark_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtEventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/dark_black"
+                android:textColorHint="@color/dark_black"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--button for adding a new course-->
+        <Button
+            android:id="@+id/addEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Post Your Event!"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!--    &lt;!&ndash;progress bar for loading indicator&ndash;&gt;-->
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/idPBLoading"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:indeterminate="true"-->
+    <!--        android:indeterminateDrawable="@drawable/progress_back"-->
+    <!--        android:visibility="gone" />-->
+
+</RelativeLayout>
+</ScrollView>

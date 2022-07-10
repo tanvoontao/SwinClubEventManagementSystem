@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/mobile_navigation"
+app:startDestination="@+id/bottomNavHome">
+
+<fragment
+    android:id="@+id/bottomNavHome"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.HomeFragment"
+    android:label="Home"
+    tools:layout="@layout/fragment_home">
+
+    <action
+        android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+        app:destination="@id/bottomNavHome" />
+</fragment>
+
+<fragment
+    android:id="@+id/bottomNavClub"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.ClubFragment"
+    android:label="Club"
+    tools:layout="@layout/fragment_club" />
+
+<fragment
+    android:id="@+id/bottomNavUpcomingEvent"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.UpComingEventFragment"
+    android:label="Upcoming event"
+    tools:layout="@layout/fragment_up_coming_event" />
+
+<fragment
+    android:id="@+id/bottomNavNotification"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.NotificationFragment"
+    android:label="Notification"
+    tools:layout="@layout/fragment_notification" />
+
+<fragment
+    android:id="@+id/nav_logout"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.LogoutFragment"
+    android:label="Log out"
+    tools:layout="@layout/fragment_logout" />
+
+<fragment
+    android:id="@+id/nav_joined_clubs"
+    android:name="com.example.swinclubeventmanagementapplication.Fragments.JoinedClubsFragment"
+    android:label="Joined Clubs"
+    tools:layout="@layout/fragment_joined_clubs" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.swinclubeventmanagementapplication.Fragments.SettingFragment"
+        android:label="Profile Setting"
+        tools:layout="@layout/fragment_setting" />
+
+
+
+</navigation>
